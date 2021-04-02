@@ -37,9 +37,9 @@ header{
 
 }
 .navbar{
-    /* width:100%;
-    z-index:2; */
-    /* position:fixed; */
+     width:100%;
+    z-index:2; 
+     position:fixed; 
     background-color: #5b5b5b;
     padding:1.2rem;
 }
@@ -66,12 +66,12 @@ header{
     font-weight:500;
     display:inline-block;
     padding:0.4rem 0.1rem;
-    word-spacing:3px;
+    word-spacing:1px;
     transition:opacity 0.5s ease;
 }
 .navbar-nav a:hover{
     opacity:0.7;
-    font-size: 20px;
+    font-size: 15px;
 
 }
 .banner{
@@ -342,6 +342,10 @@ footer{
 }
 
 @media screen and (min-width:768px){
+    header{
+        min-height:100vh;
+        background: url(image/banner-bg.jpg) cover no-repeat fixed;}
+
    .navbar .container{
         display:flex;
         align-items:center;
